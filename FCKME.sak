@@ -26,4 +26,9 @@ Link to Application, from the desktop (rmb, popup):
 Exec[$e]=env GTK_THEME=Q4OS02:dark /mnt/dump_dsk/INST/firefox/firefox
 
 Other relevant apps (fallback):
-audacity
+audacity            (Q4OS01)
+
+Bugfix:  if for some reason you get a cream colored border around your Firefox w
+indow go into the advanced settings by typing "about:config" into the address ba
+r and set "MOZ_GTK_TITLEBAR_DECORATION=none	true", by hitting the toggle but
+ton and it should turn to grey again, as per my TDE QT theme.
