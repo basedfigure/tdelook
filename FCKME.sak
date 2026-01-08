@@ -6,7 +6,7 @@ TDE install steps:
 Open entry:  file:///opt/trinity/share/applications/tde/colors.desktop
 [x] Apply colors to non-TDE applications
 
-Download & extract zip of this theme, for the latest version, into here:
+Download & extract zip of this theme folder, for the latest version, into here:
 ~/.themes
 
 Note (e.g):  View/Show Hidden Files to see system folders in Konqueror.
@@ -18,7 +18,7 @@ $ lxappearance
 * In GIMP you should set the theme to System.
 
 You also have to set certain newer GTK3/4 apps to not use this, as they won't be
-changed anyway, yet certain parts will appear buggy, so edit your desktop entrie
+themed anyway,  yet certain parts will appear buggy, so edit your desktop entrie
 s to launch more graceful fallback themes, which you can create with Link New...
 Link to Application, from the desktop (rmb, popup):
 
@@ -26,9 +26,10 @@ Link to Application, from the desktop (rmb, popup):
 Exec[$e]=env GTK_THEME=Q4OS02:dark /mnt/dump_dsk/INST/firefox/firefox
 
 Other relevant apps (fallback):
-audacity            (Q4OS01)
+Audacity            (Q4OS01)
 
-Bugfix:  if for some reason you get a cream colored border around your Firefox w
-indow go into the advanced settings by typing "about:config" into the address ba
-r and set "MOZ_GTK_TITLEBAR_DECORATION=none	true", by hitting the toggle but
-ton and it should turn to grey again, as per my TDE QT theme.
+Firefox (bugfix):  if for some reason you get a cream colored border around your
+Firefox window go into the advanced settings by typing "about:config" into the a
+ddress bar and set "MOZ_GTK_TITLEBAR_DECORATION=none	true", by hitting the to
+ggle button and it should turn to grey again, as per my TDE QT theme in my bf/ g
+it.
